@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        [CleverPush .didRegister(forRemoteNotifications: application, deviceToken: deviceToken)]
+        CleverPush.didRegister(forRemoteNotifications: application, deviceToken: deviceToken)
     }
     
     
