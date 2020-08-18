@@ -49,6 +49,8 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
     @objc func switchTapped(sender: UISwitch) {
         
     let i = sender.tag
+    
+    if(sender.isOn) {
         
     switch i {
     
@@ -70,12 +72,37 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
         ()
         }
         
+    }
+    else {
+        
+    switch i {
+        
+    case 0:
+    //Tech tag crkpCWYD8khPKjmoH
+        
+    CleverPush.removeSubscriptionTag("crkpCWYD8khPKjmoH")
+    return
+        
+    case 1:
+            
+    //  Apple TAG CleverPush.removeSubscriptionTag("W2P2wa9sFFaL78r9e")
+    return
         
         
+        
+    default:
+    ()
+      
+        
+    }
+        
+    
+        
+
     }
     
     
-    
+    }
 }
 
 
