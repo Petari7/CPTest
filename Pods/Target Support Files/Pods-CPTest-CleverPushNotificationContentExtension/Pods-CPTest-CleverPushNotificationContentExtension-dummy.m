@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CPTest_CleverPushNotificationContentExtension : NSObject
+@end
+@implementation PodsDummy_Pods_CPTest_CleverPushNotificationContentExtension
+@end
